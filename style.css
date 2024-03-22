@@ -1,55 +1,135 @@
 header {
     background-color: #424E61;
     color: white;
+}
+*{   margin: 0;   padding: 0;
+}
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+.cabecalho-imagem{
+    width: 20%;
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+* {    margin: 0;
+   padding: 0;
+}
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 15%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 20px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+.cabecalho-imagem{
+    width: 10%;
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+.escola-imagem{
+    width: 25%;
+}
+.escola{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.escola-div-conteudo{
+    width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+.estudante{
+    padding: 24px 0;
+}
+.estudante-imagem{
+    width: 120px;
+}
+.estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
 }:root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
-    --cor-de-fundo: #030510;
-}body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
-} * {
-    margin: 0;
-    padding: 0;
-}.principal {
-    background-image: url("img/Background.png");
-}<body>
-<section class="container principal">
-    <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
-    <img src="img/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua">
-</section>
-</body>
-.container {
-    height: 100vh;
-}.principal {
-    background-image: url("img/Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}.container__botao {
-    background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    display: block;
-}.container {
-    height: 100vh;
-    display: grid;
-}.container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}<section class="container principal">
-<div>
-    <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
-    <img src="img/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua">
-    <a href="www.alura.com.br" class="container__botao">Assine por 12x de R$ 120,00*</a>
-    <a href="www.alura.com.br" class="container__botao botao_secundario">Assinar somente o Alura+</a>
-</div>
-</section>
-
-
-
-
+    --cor-de-fundo: #00030C;
+    body {
+        background-color: var(--cor-de-fundo);
+    }
+    body {
+        background-color: var(--cor-de-fundo);
+        color: var(--branco-principal);
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
 
 
